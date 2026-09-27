@@ -110,6 +110,7 @@ retail-demand-forecasting/
 │
 ├── data/
 │   ├── train.csv
+│   └── test.csv
 │   └── store.csv
 │
 ├── notebooks/
@@ -121,6 +122,4 @@ retail-demand-forecasting/
 ├── images/
 │
 ├── README.md
-├── PROJECT_GUIDE.md
-└── requirements.txt
 ```
