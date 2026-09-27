@@ -14,7 +14,7 @@ Analyze historical retail sales data and develop machine learning models to pred
 
 ## Dataset
 
-Use the Rossmann Store Sales dataset. You'll need `train.csv` and `store.csv` placed in the `data/` directory. (Note: Large datasets are excluded from this repository; please download them directly from Kaggle).
+Use the Rossmann Store Sales dataset. We'll need `train.csv` and `store.csv` placed in the `data/` directory.
 
 ## Technologies Used
 
@@ -84,25 +84,6 @@ Ensemble model configured with 100 estimators to capture non-linear relationship
 - Additional lag and rolling-window features could potentially improve the forecasting approach.
 - Model performance may vary across individual stores and time periods.
 
-## Future Improvements
-
-- Add lag-based sales features
-- Add rolling averages
-- Experiment with gradient boosting models
-- Perform hyperparameter tuning
-- Incorporate additional external variables
-- Evaluate models using rolling/expanding time-series validation
-- Develop a formal time-series forecasting approach
-- Deploy the model through an API
-- Build an interactive dashboard
-
-## How to Run
-
-1. Clone the repository.
-2. Download `train.csv` and `store.csv` from Kaggle (Rossmann Store Sales) and place them in `data/`.
-3. Install requirements: `pip install -r requirements.txt`
-4. Run the Jupyter Notebook `notebooks/retail_demand_forecasting.ipynb`.
-
 ## Project Structure
 
 ```text
@@ -113,13 +94,20 @@ retail-demand-forecasting/
 │   └── test.csv
 │   └── store.csv
 │
+├── images/
+│   └── actual_vs_predicted.png
+│   └── promotion_analysis.png
+│   └── sales_by_day.png
+│   └── sales_distribuiton.png
+│   └── sales_over_time.png
+│
 ├── notebooks/
 │   └── retail_demand_forecasting.ipynb
+│   └── retail_demand_forecasting.md
+│   └── retail_demand_forecasting_files/
 │
 ├── sql/
 │   └── analysis.sql
 │
-├── images/
-│
-├── README.md
+└── README.md
 ```
